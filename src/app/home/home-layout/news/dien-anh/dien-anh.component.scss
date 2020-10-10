@@ -1,0 +1,38 @@
+.news{
+    .news-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .news-title{
+        text-overflow: ellipsis;
+        line-height: 20px;
+        font-family: 'SF Medium';
+        height: 42px;
+        font-size: 16px;
+        transition: color .2s;
+        margin: 5px 0px;
+        a{
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    .news-text{
+        text-align: justify;
+        font-size: 13px;
+        color: #4a4a4a;
+        line-height: 19px;
+    }
+}
+.demo{
+    img{
+        height: 65px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    .text p{
+        color: #000000;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+}

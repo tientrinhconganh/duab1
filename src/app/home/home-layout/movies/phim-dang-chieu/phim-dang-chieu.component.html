@@ -1,0 +1,23 @@
+
+<!-- <div class="owl-carousel owl-theme">
+    <div class="item" *ngFor="let phim of danhSachPhim | slice: 0:5">
+        
+    </div>
+</div> -->
+
+<div class="movie-info__list">
+    <ngx-slick-carousel class="carousel"
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of danhSachPhim" class="slide">
+              <div class="row">
+                  <div class="movie-card col-3 my-3" *ngFor="let phim of danhSachPhim | slice: 0:8">
+                      <div class="img-card mb-2">
+                        <app-item-phim [Phim]=phim></app-item-phim>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </ngx-slick-carousel>
+</div>
+

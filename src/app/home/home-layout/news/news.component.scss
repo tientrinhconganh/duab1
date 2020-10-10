@@ -1,0 +1,15 @@
+#tintuc {
+    .choose {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn p {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .active{
+            color: #fa5238 ;
+        }
+    }
+}
